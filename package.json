@@ -1,0 +1,21 @@
+{
+  "name": "drawingapp-socketio",
+  "version": "1.0.0",
+  "description": "realtime drawing by socket.io & p5.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "drawingapp",
+    "socket.io"
+  ],
+  "author": "ali d.",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "p5": "^0.8.0",
+    "socket.io": "^2.2.0"
+  }
+}
